@@ -2,4 +2,4 @@
 
 1. First access **chrome://extensions/** and then check the box "Developer mode".
 
-2. Then click in **"Load unpacked extension"** and import the **copy-paste-bot** extension.
+2. Then click in **"Load unpacked extension"** and import the **copy-paste-extension**.
