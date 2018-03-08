@@ -1,0 +1,16 @@
+{
+  "name": "copy-cut-bot",
+  "version": "1.0.0",
+  "description": "Copy and Cut Extension for Chrome",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://userJapa@bitbucket.org/userJapa/copy-cut-bot.git"
+  },
+  "author": "userjapa",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/userJapa/copy-cut-bot#readme"
+}
