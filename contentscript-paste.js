@@ -4,8 +4,10 @@
 
   function setInfo(response) {
     if (response.error) return;
-    var input = document.getElementById('lst-ib')
+    let input = document.getElementById('lst-ib')
+    const button = document.getElementById('_fZl')
     input.value = response.title
+    button.click()
   }
 
   chrome.runtime.sendMessage('gghidpfbbblnpigjfoidemnbobnhgajp', request, setInfo)
