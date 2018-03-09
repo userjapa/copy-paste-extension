@@ -4,8 +4,8 @@
 
   function setInfo(response) {
     if (response.error) return;
-    let input = document.getElementById('lst-ib')
-    let button = document.getElementById('_fZl')
+    let input = document.getElementById('search-input').firstElementChild
+    let button = document.getElementById('search-icon-legacy')
     input.value = response.title
     button.click()
   }
