@@ -4,7 +4,7 @@
 
   function setInfo(response) {
     if (response.error) return;
-    let input = document.getElementById('sb_ifc50').firstElementChild
+    let input = document.getElementById('search-input').firstElementChild
     let button = document.getElementById('search-icon-legacy')
     input.value = response.title
     button.click()
