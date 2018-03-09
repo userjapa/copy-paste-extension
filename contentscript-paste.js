@@ -5,7 +5,7 @@
   function setInfo(response) {
     if (response.error) return;
     let input = document.getElementById('lst-ib')
-    const button = document.getElementById('_fZl')
+    let button = document.getElementById('_fZl')
     input.value = response.title
     button.click()
   }
